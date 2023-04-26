@@ -1,0 +1,446 @@
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+.section-title{
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.section-text{
+  font-size: 1.2rem;
+}
+
+.dark-section{
+  color: #fff;
+  background-color: #1b1b32;
+}
+
+.section-light{
+  color: #000;
+  background-color: #fff;
+}
+
+.black-text{
+  color: #000;
+}
+
+.white-text{
+  color: #fff;
+}
+
+.btn-info{
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight:lighter;
+}
+
+.navbar{
+  padding: 2rem;
+  background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand{
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 2px;
+}
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 400px;
+  text-align: center;
+}
+
+.hero-main{
+  padding: 1.5rem;
+  gap: 30px;
+}
+
+.hero-profile-pic{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+}
+
+.hero-principal h2{
+  font-size: 1.5rem;
+  color: #615151;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about-me{
+  height: auto;
+  padding: 10px;
+}
+
+.about-me div{
+  max-width: 800px;
+  text-align: left;
+}
+
+.logo-container {
+  text-align: center;
+  height: 70px;
+  background-color: #ede9e9;
+}
+
+.education-experience img{
+  padding: 10px;
+  width: 40%;
+}
+
+.education-experience i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.education-experience .card{
+  margin: 10px;
+}
+
+.education-experience p{
+  min-height: 70px;
+}
+
+.skills{
+  padding: 40px 40px 60px 40px;
+}
+
+.skills-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.custom-column{
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.25s ease-in-out;
+}
+
+.custom-column:hover{
+  color: #fff;
+  background-color: #1b1b32;
+}
+
+.skills i{
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.list-group{
+  text-align: left;
+}
+
+.badges-container{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0; 
+}
+
+.bagde {
+  margin: 5px;
+}
+
+.projects {
+  padding: 40px;
+}
+
+.section-description{
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.projects img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.25s ease;
+}
+
+.projects .container{
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.project{
+  position: relative;
+}
+
+.overlay{
+  transition: all 0.25s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.project:hover img{
+  opacity: 0.2;
+}
+
+.project:hover .overlay{
+  opacity: 1;
+}
+
+.overlay .icons-container{
+  display: flex;
+}
+
+.overlay i{
+  color: #000;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.experience{
+  min-height: 500px;
+  padding: 30px;
+}
+
+.experience .card{
+  width: 80%;
+  max-width: 800px;
+  margin: 20px;
+}
+
+.experience .card-header{
+  font-weight: bold;
+}
+
+.experience-badges span{
+  margin: 5px;
+}
+
+.recommendations{
+  padding: 40px 40px 80px 40px;
+}
+
+.recommendations .carousel{
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.recommendations-image{
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.recommendations-texto{
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.recommendations-info{
+  font-weight: bold;
+  text-align: center;
+}
+
+.recommendations-info p{
+  margin-bottom: 0;
+}
+
+.recommendations-info .manager{
+  font-size: 1.2rem;
+}
+
+
+.recommendations-info .role{
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+.carousel-item .container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .container{
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contact .rectangle{
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contact .row{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contact .description{
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contact button {
+  color: #fff;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button i{
+  color: #fff;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.contact button:hover i{
+  color: #000;
+}
+
+footer{
+  min-height: 500px;
+}
+
+.footer-logo{
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-text{
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.social-network-icons a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.social-network-icons i{
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.social-network-icons a:hover{
+  background-color: #fff;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.social-network-icons a:hover i{
+  color: #000;
+}
+
+.copyright{
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+@media(max-width: 767px) {
+  .navbar-brand{
+    display: none;
+  }
+}
+
+@media(max-width: 700px){
+  .hero-main{
+    flex-direction: column;
+  }
+  .hero-profile-pic{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+  .hero-skills-pic{
+    width: 195px;
+  }
+}
+
+@media(min-width: 700px) {
+  .hero-skills-pic{
+    max-width: 295px;
+  }
+}
+
+@media(max-width: 400px){
+  .overlay p{
+    font-size: 15px;
+  }
+  .overlay i{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 800px){
+  .recommendations-image{
+    width: 110px;
+    height: 110px;
+  }
+  .recommendations-texto{
+    font-size: 14px;
+  }
+}

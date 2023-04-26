@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="author" content="Emilio Nicolas Pino">
+  <meta name="description" content="Portafololio de Desarrollo Web de Emilio Nicolas Pino">
+  <meta name="keywords" content="HTML, CSS, BootStrap, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/code-block-regular-48.png" type="image/x-icon">
+  <title>Emilio Nicolas Pino | Front End Developer</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img width="50" src="images/pinoen.jpeg" alt="Logo de la página">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#about-me">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#education">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#skills">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recommendations">Recomendaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero align-items-stretch">
+    <div class="hero-main d-flex justify-content-center align-items-center">
+      <img class="hero-profile-pic rounded-start-circle" src="images/pinoen.jpeg" alt="Foto de perfil de Emilio">
+      <div>
+        <h1>Hola, soy Emilio</h1>
+        <h2>Soy desarrollador full stack</h2>
+      </div>
+    </div>
+
+    <div class="hero-aux">
+      <img class="img-fluid hero-skills-pic" src="images/developer.png" alt="Habilidades">
+    </div>
+  </section>
+
+  <section id="about-me" class="about-me dark-section">
+    <div class="container">
+      <h2 class="section-title text-center">Sobre mí</h2>
+      <p class="section-text">Trabajé durante 15 años en las industrias de la construcción, gas y petróleo como supervisor de seguridad con el objetivo principal de mantener un lugar de trabajo libre de accidentes.</p>
+      <p class="section-text">En 2021, decidí seguir una carrera en tecnología. Actualmente, mientras mantengo mis estudios, busco unir fuerzas con una empresa donde pueda aplicar todo lo que he aprendido hasta ahora y seguir creciendo juntos. Me considero un estudiante a largo plazo, paciente, orientado a objetivos, decidido, responsable y amable.</p>
+    </div>
+  </section>
+
+  <section id="education" class="education-experience">
+    <h2 class="section-title black-text">Educación</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container" style="background-color: rgb(95, 92, 92);">
+              <img style="padding-top: 25px;" src="images/logos/dh.svg" class="card-img-top" alt="Logo Digital House">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Certified Tech Developer</h5>
+              <p class="card-text">Es una iniciativa educativa co-creada por Digital House, Mercado Libre y Globant para formar desarrolladores siguiendo los más altos estándares de la industria.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>05/2022 - En curso</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Online, Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.digitalhouse.com/ar/productos/programacion/certified-tech-developer" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center" style="background-color: rgb(95, 92, 92);">
+              <img style="width: 60%;" src="images/logos/uda1.png" class="card-img-top" alt="Logo Universidad del Aconcagua">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Lic. Higiene y Seguridad Laboral</h5>
+              <p class="card-text">Esta carrera está destinada a formar profesionales en las áreas de la higiene y seguridad en el trabajo con habilidades y conocimientos suficientes que les permitan cumplir con los objetivos de cada especialidad.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>03/2003 - 11/2010</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Mendoza, Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.uda.edu.ar/index.php/licenciatura-en-calidad-medio-ambiente-e-higiene-y-seguridad-en-el-trabajo" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+  <section id="skills" class="skills section-light">
+    <div class="container text-center">
+      <h2 class="section-title">Habilidades</h2>
+      <div class="row">
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-front"></i>
+          <p class="skills-title">Front end</p>
+          <ul class="list-group">
+            <li class="list-group-item">Diseñar y desarrollar interfaces utilizando HTML, CSS, JavaScript, React.</li>
+            <li class="list-group-item">Adaptar las páginas a los distintos dispositivos —smartphone, tablet y desktop.</li>
+            <li class="list-group-item">CSS / SASS para la creación de estilos. Flex para el manejo de grillas y posiciones.</li>
+            <li class="list-group-item">Reproducir los mockups provistos.</li>
+            <li class="list-group-item">Validar los campos de entradas de datos.</li>
+            <li class="list-group-item">Consumir APIs para la integración del front end con el back end.</li>
+          </ul>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-back"></i>
+          <p class="skills-title">Back end</p>
+          <ul class="list-group">
+            <li class="list-group-item">Diseñar y modelar la capa de acceso a los datos.</li>
+            <li class="list-group-item">Usar hibernate a través de Spring Data para mapear las diferentes clases con sus respectivas tablas en base de datos.</li>
+            <li class="list-group-item">Crear diferentes servicios y exponerlos a través de las APIs REST.</li>
+            <li class="list-group-item">Utilizar las excepciones para manejar los posibles errores.</li>
+            <li class="list-group-item">Registrar los errores y el rendimiento utilizando Log4j.</li>
+            <li class="list-group-item">Crear pruebas unitarias (JUnit) y pruebas de integración (MockMvc).</li>
+          </ul>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">MySQL</span>
+            <span class="badge text-bg-primary">MongoDB</span>
+            <span class="badge text-bg-primary">NodeJS</span>
+            <span class="badge text-bg-primary">Java</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-bug-fill"></i>
+          <p class="skills-title">Testing</p>
+          <ul class="list-group">
+            <li class="list-group-item">Crear una plantilla de informe de defectos para documentarlos cuando se los encuentren. </li>
+            <li class="list-group-item">Generar una plantilla de casos de prueba para planificar las pruebas por adelantado, ya sea a partir de la documentación de los requisitos del software o de la propia aplicación. </li>
+            <li class="list-group-item">Realizar una buena cobertura de pruebas unitarias (pruebas de componentes) en los códigos de la aplicación.</li>
+            <li class="list-group-item">Crear pruebas automatizadas con Selenium para garantizar una buena cobertura de prueba de regresión que pueda ejecutarse con mayor frecuencia sin necesidad de que alguien lo haga manualmente.</li>
+          </ul>
+          <div class="badges-container">
+            <span class="badge text-bg-primary">Jest</span>
+            <span class="badge text-bg-primary">Vitest</span>
+            <span class="badge text-bg-primary">Selenium</span>
+            <span class="badge text-bg-primary">JUnit</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-database-check"></i>
+          <p class="skills-title">DevOps</p>
+          <div class="badges-container">
+            <span class="badge text-bg-success">CLI Linux</span>
+            <span class="badge text-bg-success">Bash</span>
+            <span class="badge text-bg-success">Virtual Box</span>
+            <span class="badge text-bg-success">Git</span>
+            <span class="badge text-bg-success">GitHub</span>
+            <span class="badge text-bg-success">GitLab</span>
+            <span class="badge text-bg-success">Cloud Computing</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-tools"></i>
+          <p class="skills-title">Herramientas</p>
+          <div class="badges-container">
+            <span class="badge text-bg-success">Visual Studio Code</span>
+            <span class="badge text-bg-success">IntelliJDEA</span>
+            <span class="badge text-bg-success">Postman</span>
+            <span class="badge text-bg-success">Figma</span>
+            <span class="badge text-bg-success">Workbench</span>
+            <span class="badge text-bg-success">Trello</span>
+            <span class="badge text-bg-success">Netlify</span>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4 custom-column">
+          <i class="bi bi-people-fill"></i>
+          <p class="skills-title">Habilidades blandas / Idiomas</p>
+          <div class="badges-container">
+            <span class="badge text-bg-success">Metodologías Agiles</span>
+            <span class="badge text-bg-success">Design Thinking</span>
+            <span class="badge text-bg-success">Team & Collaboration</span>
+            <span class="badge text-bg-success">Inglés (upper intermediate)</span>
+            <span class="badge text-bg-success">Español (nativo)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects section-light d-flex flex-column">
+    <h2 class="section-title black-text">Proyectos</h2>
+    <h3 class="section-description">Estos son algunos de mis últimos proyectos</h3>  
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project1-rent-a-car.png" alt="Proyecto app de alquiler de vehiculos">
+            <div class="overlay">
+              <p>App de alquiler de vehiculos</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/rentACar" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="http://bucket-grupo2-frontend.s3-website.us-east-2.amazonaws.com/" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project2-cv-creator.png" alt="Proyecto app para creación de cv">
+            <div class="overlay">
+              <p>App para creación de CV</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/cv-creator" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://cv-creator-pinoen.netlify.app/" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project3-weather-app.png" alt="Proyecto weahter app">
+            <div class="overlay">
+              <p>Weather app</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/weather" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://pinoen.github.io/weather/" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project4-photo-blog.png" alt="Proyecto Photo Blog">
+            <div class="overlay">
+              <p>Photo Blog</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/PhotoBlog" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://travel-memories-135a1.firebaseapp.com/login" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project5-github-users.png" alt="Proyecto usuarios registrados en github">
+            <div class="overlay">
+              <p>Github Users</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/GitHub-cards" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://github-cards-f41c2c.netlify.app/" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="project">
+            <img src="images/projects/project6-clinica-odontologica.png" alt="Proyecto clinica odontologica">
+            <div class="overlay">
+              <p>Clinica Odontológica</p>
+              <div class="icons-container">
+                <a href="https://github.com/pinoen/clinica-odontologica" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://frontend-final-dentist-cards.netlify.app/" target="_blank">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://pinoen.github.io/curriculum-vitae/developer.html" target="_blank">
+      <button type="button" class="btn btn-info">Ver mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <section id="experience" class="education-experience justify-content-start">
+    <h2 class="section-title black-text">Experiencia</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container">
+              <img style="padding-top: 20px;" src="images/logos/halliburton.svg" class="card-img-top" alt="Logo halliburton">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">HSE Technical Professional</h5>
+              <p class="card-text">Líder mundial en la prestación de servicios para la industria del petróleo y gas en todo el ciclo de vida del yacimiento. </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>10/2019 - 10/2020</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Neuquén - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.halliburton.com/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center">
+              <img src="images/logos/fmc.svg" class="card-img-top" alt="Logo technipfmc">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">HSE & Security Coordinator</h5>
+              <p class="card-text">Líder global en tecnologías de superficie y servicios para la perforación, terminación y producción en la industria del gas y petróleo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>07/2017 - 10/2019</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Neuquén - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.technipfmc.com/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center">
+              <img style="width: 20%;" src="images/logos/tecna.png" class="card-img-top" alt="Logo tecna">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Coordinador de Seguridad</h5>
+              <p class="card-text">Ejecución de proyectos integrales, desde el diseño y la construcción de plantas industriales, hasta su puesta en marcha, operación y mantenimiento dentro de los mercados de gas y petróleo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>10/2013 - 07/2017</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Tierra del Fuego, Buenos Aires, Neuquén - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.linkedin.com/company/tecna/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center">
+              <img style="width: 30%;" src="images/logos/ag.svg" class="card-img-top" alt="Logo andrade gutierrez">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Coordinador de Seguridad</h5>
+              <p class="card-text">Ingeniería aplicada en proyectos industriales, obras de infraestructura, movilidad urbana, energía, petróleo y gas.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>05/2011 - 03/2012</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Buenos Aires - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.andradegutierrez.com.br/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center">
+              <img style="width: 30%;" src="images/logos/champion.png" class="card-img-top" alt="Logo champion technologies">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Analista QHSE</h5>
+              <p class="card-text">Productos químicos para la producción de gas, agua y petróleo.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>01/2008 - 02/2011</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Neuquén, Chubut - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.championx.com/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card">
+            <div class="logo-container d-flex justify-content-center align-items-center">
+              <img style="width: 30%;" src="images/logos/skanska.svg" class="card-img-top" alt="Logo skanska">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Supervisor de Seguridad</h5>
+              <p class="card-text">Ingeniería, construcción y servicios, que incluyen mantenimiento y operación, en la industria de petróleo, gas, energía y minería.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="bi bi-calendar-range"></i>10/2005 - 05/2007</li>
+              <li class="list-group-item"><i class="bi bi-geo-alt-fill"></i>Neuquén, Río Negro, La Pampa - Argentina</li>
+            </ul>
+            <div class="card-body">
+              <i class="bi bi-info-circle-fill"></i>
+              <a href="https://www.skanska.com/" class="card-link" target="_blank">+info</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 justify-content-center align-items-center">
+          <div class="card">
+            <div class="text-center d-flex justify-content-center align-items-center" style="background-color: #ede9e9;">
+              <i style="font-size: 40px;" class="bi bi-card-checklist"></i>
+              <p class="skills-title" style="padding-top: 15px;">Responsabilidades de experiencias previas</p>
+            </div>
+              <ul class="list-group">
+                <li class="list-group-item">Auditoria, control y mantenimiento de Sistemas Integrados de Gestión basados en estandares ISO.</li>
+                <li class="list-group-item">Representante en temas HSE ante clientes y terceras partes.</li>
+                <li class="list-group-item">Coordinación de equipos HSE.</li>
+                <li class="list-group-item">Entrenamiento en topicos de HSE.</li>
+                <li class="list-group-item">Inspección de HSE en oficinas, talleres y en campo.</li>
+                <li class="list-group-item">Control y seguimiento de indicadores claves de desempeño.</li>
+                <li class="list-group-item">Revisión y gestión de Análisis de Riesgos.</li>
+                <li class="list-group-item">Preparación de Campañas y Reportes de Seguridad.</li>
+                <li class="list-group-item">Preparación de Programas de Seguridad y Aspectos Legales.</li>
+              </ul>
+              <div class="badges-container experience-badges" style="padding: 5px;">
+                <span class="badge text-bg-info">Sistemas Integrados de Gestión</span>
+                <span class="badge text-bg-info">Normas ISO</span>
+                <span class="badge text-bg-info">Microsoft Office</span>
+                <span class="badge text-bg-info">Trabajo en Equipo</span>
+                <span class="badge text-bg-info">Industria Gas y Petroleo</span>
+                <span class="badge text-bg-info">Industria de la Construcción</span>
+                <span class="badge text-bg-info">Satisfacción del Cliente</span>
+                <span class="badge text-bg-info">Investigación de Incidentes</span>
+                <span class="badge text-bg-info">Relación con Clientes</span>
+                <span class="badge text-bg-info">Gestión de Riesgos</span>
+                <span class="badge text-bg-info">Entrenamiento de Personal</span>
+                <span class="badge text-bg-info">Confección de Procedimientos de Trabajo</span>
+                <span class="badge text-bg-info">Seguimiento de KPIs</span>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+  <section id="recommendations" class="recommendations section-light">
+    <h2 class="section-title">Recomendaciones</h2>
+    <h3 class="section-description">Estos son algunos testimonios de ex-superiores / gerentes a quienes reportaba</h3>
+    <h3 class="section-description" style="font-size: 16px;">* Recomendaciones tomadas de <a href="https://www.linkedin.com/in/emiliopino/details/recommendations/?detailScreenTabIndex=0" target="_blank">Linkedin</a></h3>
+
+    <div id="recommendations-carousel" class="carousel slide carousel-dark">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="recommendations-image rounded-circle" src="images/profile-pictures/carolina-chandler.jpeg" alt="Foto de Carolina Chandler">
+            <p class="recommendations-texto">Trabajé con Emilio durante 2 años, es un excelente profesional, y está muy comprometido con su trabajo. Siempre está buscando nuevas ideas, soluciones y alternativas, y tiene mucho conocimiento de su profesión. Es una persona confiable, muy colaboradora, de carácter conciliador, paciente y muy respetuoso.</p>
+            <div class="recommendations-info">
+              <p class="manager">Carolina Chandler</p>
+              <p class="role">Health, Safety, Environment and Security (HSES) Manager</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="recommendations-image rounded-circle" src="images/profile-pictures/jorge-cilurzo.jpeg" alt="Foto de Jorge Cilurzo">
+            <p class="recommendations-texto">Emilio es un excelente profesional y mejor persona. Fue un placer trabajar codo a codo con el en un proyecto rodeado de dificultades. Sabe trabajar en equipo y es muy colaborador. Sabe manejar situaciones difíciles y mantener buenas relaciones con los diferentes niveles y partes interesadas.</p>
+            <div class="recommendations-info">
+              <p class="manager">Jorge Cilurzo</p>
+              <p class="role">Coordinador HSE de proyectos EPC</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="recommendations-image rounded-circle" src="images/profile-pictures/fabian-haag.jpeg" alt="Foto de Fabián Haag">
+            <p class="recommendations-texto">Emilio es un Profesional que se destaca por sus conocimientos y responsabilidad. Se focaliza muy bien en lo requerido para su función. Es una persona muy respetuosa, confiable y de perfil conciliador. 
+              Fue gratificante trabajar con él y lo volvería a hacer.</p>
+            <div class="recommendations-info">
+              <p class="manager">Fabián Haag</p>
+              <p class="role">Representante Técnico de Area Chubut - Santa Cruz - Tierra del Fuego</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="recommendations-image rounded-circle" src="images/profile-pictures/ezequiel-blotto.jpeg" alt="Foto de Ezequiel Blotto">
+            <p class="recommendations-texto">Emilio tiene gran iniciativa y predisposición para lograr el cumplimiento de los objetivos de la organización. 
+              Sus trabajos son de una muy buena calidad, y trabaja con gran capacidad de análisis de los indicadores.</p>
+            <div class="recommendations-info">
+              <p class="manager">Ezequiel Blotto</p>
+              <p class="role">Coordinador HQSSE - Team Lead Argentina</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#recommendations-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#recommendations-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="contact" class="contact dark-section">
+    <div class="container">
+      <div class="container text-center d-flex justify-content-evenly rectangle">
+        <div class="row">
+          <div class="col-12 col-md-4 section-title">
+            Hablemos!
+          </div>
+          <div class="col-12 col-md-4 description">
+            Sí mí perfil se ajusta a tus necesidades, estoy abierto a escuchar tu propuesta.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:pinoen@yahoo.com.ar">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-at-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="dark-section d-flex flex-column justify-content-center align-items-center">
+    <img class="footer-logo rounded-circle" src="images/pinoen.jpeg" alt="Logo pinoen">
+    <p class="footer-text text-center">Todos los días aprendo y aplico algo nuevo.<br>Siempre dispuesto a colaborar.</p>
+    <div class="social-network-icons d-flex flex-wrap justify-content-center align-items-center">
+      <a href="https://www.linkedin.com/in/emiliopino/" target="_blank">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://github.com/pinoen" target="_blank">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="mailto:pinoen@yahoo.com.ar" target="_blank">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="copyright">Desarrollado por Emilio Nicolás Pino - 2023 &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
