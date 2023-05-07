@@ -333,6 +333,7 @@ a {
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
+  width: 200px;
 }
 
 .contact button i{
